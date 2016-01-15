@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C59761B71C3F52DC00BC8B65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761B61C3F52DC00BC8B65 /* main.m */; };
+		C59761BA1C3F52DC00BC8B65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761B91C3F52DC00BC8B65 /* AppDelegate.m */; };
+		C59761BD1C3F52DC00BC8B65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761BC1C3F52DC00BC8B65 /* ViewController.m */; };
+		C59761C01C3F52DC00BC8B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59761BE1C3F52DC00BC8B65 /* Main.storyboard */; };
+		C59761C21C3F52DC00BC8B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59761C11C3F52DC00BC8B65 /* Assets.xcassets */; };
+		C59761C51C3F52DC00BC8B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59761C31C3F52DC00BC8B65 /* LaunchScreen.storyboard */; };
+		C59761D41C3F53E500BC8B65 /* ChartCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761D31C3F53E500BC8B65 /* ChartCommon.m */; };
+		C59761D71C3F53EB00BC8B65 /* ChartBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761D61C3F53EB00BC8B65 /* ChartBaseView.m */; };
+		C59761DB1C3F55AF00BC8B65 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761DA1C3F55AF00BC8B65 /* LineChartView.m */; };
+		C59761DE1C3F564100BC8B65 /* AnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59761DD1C3F564100BC8B65 /* AnchorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C59761B21C3F52DC00BC8B65 /* LineChartRoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChartRoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59761B61C3F52DC00BC8B65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C59761B81C3F52DC00BC8B65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C59761B91C3F52DC00BC8B65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C59761BB1C3F52DC00BC8B65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C59761BC1C3F52DC00BC8B65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C59761BF1C3F52DC00BC8B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C59761C11C3F52DC00BC8B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C59761C41C3F52DC00BC8B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C59761C61C3F52DC00BC8B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59761D21C3F53E500BC8B65 /* ChartCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartCommon.h; path = LineChart/CommonMethods/ChartCommon.h; sourceTree = "<group>"; };
+		C59761D31C3F53E500BC8B65 /* ChartCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartCommon.m; path = LineChart/CommonMethods/ChartCommon.m; sourceTree = "<group>"; };
+		C59761D51C3F53EB00BC8B65 /* ChartBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartBaseView.h; path = LineChart/ChartBaseView.h; sourceTree = "<group>"; };
+		C59761D61C3F53EB00BC8B65 /* ChartBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartBaseView.m; path = LineChart/ChartBaseView.m; sourceTree = "<group>"; };
+		C59761D81C3F53F200BC8B65 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = LineChart/Constants.h; sourceTree = "<group>"; };
+		C59761D91C3F55AF00BC8B65 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineChartView.h; path = LineChart/LineChartView.h; sourceTree = "<group>"; };
+		C59761DA1C3F55AF00BC8B65 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineChartView.m; path = LineChart/LineChartView.m; sourceTree = "<group>"; };
+		C59761DC1C3F564100BC8B65 /* AnchorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnchorView.h; path = LineChart/AnchorView.h; sourceTree = "<group>"; };
+		C59761DD1C3F564100BC8B65 /* AnchorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnchorView.m; path = LineChart/AnchorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59761AF1C3F52DC00BC8B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59761A91C3F52DC00BC8B65 = {
+			isa = PBXGroup;
+			children = (
+				C59761B41C3F52DC00BC8B65 /* LineChartRoi */,
+				C59761B31C3F52DC00BC8B65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59761B31C3F52DC00BC8B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59761B21C3F52DC00BC8B65 /* LineChartRoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59761B41C3F52DC00BC8B65 /* LineChartRoi */ = {
+			isa = PBXGroup;
+			children = (
+				C59761D01C3F53C300BC8B65 /* LineChart */,
+				C59761B81C3F52DC00BC8B65 /* AppDelegate.h */,
+				C59761B91C3F52DC00BC8B65 /* AppDelegate.m */,
+				C59761BB1C3F52DC00BC8B65 /* ViewController.h */,
+				C59761BC1C3F52DC00BC8B65 /* ViewController.m */,
+				C59761BE1C3F52DC00BC8B65 /* Main.storyboard */,
+				C59761C11C3F52DC00BC8B65 /* Assets.xcassets */,
+				C59761C31C3F52DC00BC8B65 /* LaunchScreen.storyboard */,
+				C59761C61C3F52DC00BC8B65 /* Info.plist */,
+				C59761B51C3F52DC00BC8B65 /* Supporting Files */,
+			);
+			path = LineChartRoi;
+			sourceTree = "<group>";
+		};
+		C59761B51C3F52DC00BC8B65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59761B61C3F52DC00BC8B65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C59761D01C3F53C300BC8B65 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				C59761D11C3F53D900BC8B65 /* CommonMethods */,
+				C59761D81C3F53F200BC8B65 /* Constants.h */,
+				C59761DC1C3F564100BC8B65 /* AnchorView.h */,
+				C59761DD1C3F564100BC8B65 /* AnchorView.m */,
+				C59761D51C3F53EB00BC8B65 /* ChartBaseView.h */,
+				C59761D61C3F53EB00BC8B65 /* ChartBaseView.m */,
+				C59761D91C3F55AF00BC8B65 /* LineChartView.h */,
+				C59761DA1C3F55AF00BC8B65 /* LineChartView.m */,
+			);
+			name = LineChart;
+			sourceTree = "<group>";
+		};
+		C59761D11C3F53D900BC8B65 /* CommonMethods */ = {
+			isa = PBXGroup;
+			children = (
+				C59761D21C3F53E500BC8B65 /* ChartCommon.h */,
+				C59761D31C3F53E500BC8B65 /* ChartCommon.m */,
+			);
+			name = CommonMethods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59761B11C3F52DC00BC8B65 /* LineChartRoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59761C91C3F52DC00BC8B65 /* Build configuration list for PBXNativeTarget "LineChartRoi" */;
+			buildPhases = (
+				C59761AE1C3F52DC00BC8B65 /* Sources */,
+				C59761AF1C3F52DC00BC8B65 /* Frameworks */,
+				C59761B01C3F52DC00BC8B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineChartRoi;
+			productName = LineChartRoi;
+			productReference = C59761B21C3F52DC00BC8B65 /* LineChartRoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59761AA1C3F52DC00BC8B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mitake;
+				TargetAttributes = {
+					C59761B11C3F52DC00BC8B65 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C59761AD1C3F52DC00BC8B65 /* Build configuration list for PBXProject "LineChartRoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59761A91C3F52DC00BC8B65;
+			productRefGroup = C59761B31C3F52DC00BC8B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59761B11C3F52DC00BC8B65 /* LineChartRoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59761B01C3F52DC00BC8B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59761C51C3F52DC00BC8B65 /* LaunchScreen.storyboard in Resources */,
+				C59761C21C3F52DC00BC8B65 /* Assets.xcassets in Resources */,
+				C59761C01C3F52DC00BC8B65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59761AE1C3F52DC00BC8B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59761BD1C3F52DC00BC8B65 /* ViewController.m in Sources */,
+				C59761BA1C3F52DC00BC8B65 /* AppDelegate.m in Sources */,
+				C59761B71C3F52DC00BC8B65 /* main.m in Sources */,
+				C59761D41C3F53E500BC8B65 /* ChartCommon.m in Sources */,
+				C59761D71C3F53EB00BC8B65 /* ChartBaseView.m in Sources */,
+				C59761DE1C3F564100BC8B65 /* AnchorView.m in Sources */,
+				C59761DB1C3F55AF00BC8B65 /* LineChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C59761BE1C3F52DC00BC8B65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59761BF1C3F52DC00BC8B65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C59761C31C3F52DC00BC8B65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59761C41C3F52DC00BC8B65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C59761C71C3F52DC00BC8B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59761C81C3F52DC00BC8B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59761CA1C3F52DC00BC8B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LineChartRoi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mitake.LineChartRoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C59761CB1C3F52DC00BC8B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LineChartRoi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mitake.LineChartRoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59761AD1C3F52DC00BC8B65 /* Build configuration list for PBXProject "LineChartRoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59761C71C3F52DC00BC8B65 /* Debug */,
+				C59761C81C3F52DC00BC8B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59761C91C3F52DC00BC8B65 /* Build configuration list for PBXNativeTarget "LineChartRoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59761CA1C3F52DC00BC8B65 /* Debug */,
+				C59761CB1C3F52DC00BC8B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C59761AA1C3F52DC00BC8B65 /* Project object */;
+}
